@@ -1,12 +1,11 @@
 name: feather_icons
 description: feather_icons.
 version: 0.0.1
-author: FeatherIcons (collab. MadMan)
-url: https://feathericons.com/
+author: MadMan
 homepage: https://github.com/madman-n/feather_icons.git
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
