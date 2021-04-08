@@ -35,14 +35,19 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text('Try'),
             Icon(
               Feather.airplay,
+              size: 24,
             ),
             Icon(
-              Feather.alert_octagon,
-              size: 100,
+              Feather.activity,
+              size: 36,
             ),
-            
+            Transform.scale(
+              scale: 1.5,
+              child: Icon(Feather.activity),
+            )
           ],
         ),
       ),

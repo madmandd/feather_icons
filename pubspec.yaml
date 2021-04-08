@@ -1,6 +1,8 @@
 name: feather_icons
 description: feather_icons.
 version: 0.0.1
+author: FeatherIcons (collab. MadMan)
+url: https://feathericons.com/
 homepage: https://github.com/madman-n/feather_icons.git
 
 environment:
@@ -17,6 +19,6 @@ dev_dependencies:
 
 flutter:
   fonts:
-    - family: Feather
-      fonts:
-        - asset: lib/fonts/Feather.ttf
+   - family: Feather
+     fonts:
+      - asset: assets/Feather.ttf
